@@ -1,26 +1,26 @@
 {
-    "id": "3C72C5FF",
-    "path": "~/code/personal/workdir/aumahesh.github.io/content/terms.md",
-    "project_path": "content/terms.md",
+    "id": "9B204551",
+    "path": "~/code/personal/workdir/aumahesh.github.io/content/authors/admin/_index.md",
+    "project_path": "content/authors/admin/_index.md",
     "type": "markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1696347330735.0,
+    "created": 1696347604176.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "13,0",
-        "scrollLine": "0"
+        "cursorPosition": "33,19",
+        "scrollLine": "13"
     },
     "folds": "",
-    "lastKnownWriteTime": 1696285065,
+    "lastKnownWriteTime": 1696347653,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1696285065,
+    "last_content_update": 1696347653580,
     "read_only": false,
     "read_only_alternatives": []
 }
