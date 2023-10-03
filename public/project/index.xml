@@ -5,12 +5,42 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>/project/</link>
     </image>
+    
+    <item>
+      <title>Restor-AI-tion: Ancient Handwritten Japanese Texts Restoration</title>
+      <link>/project/capstone-mids/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/project/capstone-mids/</guid>
+      <description>&lt;p&gt;Much like cursive writing in English, the Japanese language has Kuzushiji, roughly translating to squished writing.
+This writing style was used for over a thousand years beginning in the 8th century but is not taught in modern day curricula.
+As a result, most Japanese natives, aside from a select few experts, can read Kuzushiji. Most conversion of these works from
+Kuzushiji to modern Japanese is done by hand and takes countless hours for just a single document. However, with the
+relatively recent effort by museums and libraries to digitize ancient works in an effort to safeguard these priceless artifacts against natural disasters, the use of AI for these conversions has become suddenly more realistic. This project looks to build on existing work to restore deteriorated ancient texts through the use of generative AI such as GANs or the more advanced Diffusion Models. Converting these works into modern legible Japanese can help better understand, as well as preserve the history and culture of the Japanese people.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Urban Land Use Classification from Public Domain Imagery</title>
+      <link>/project/landuse-mids/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/project/landuse-mids/</guid>
+      <description>&lt;p&gt;In this project, we investigate the urban land use dataset from UC Merced that consists of 21 land
+use categories from various urban areas across the United States. We explore various features of the
+images, starting from simple ones such as mean color values of the color channels and histogram of
+oriented gradients, to complex features such as bag of visual words, contours of an image, and embeddings
+from pre-trained deep neural network models (e.g., VGG16 and ResNet101). We perform principal
+component analysis to reduce the dimensionality of our dataset for better generalizability. We identify
+features suitable for classifying the images into their respective classes through experiments with various
+classification models. Finally, we compare and contrast these classification models for efficiency (with
+respect to the time required for training and prediction) and model accuracy.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Signet-ring: A framework for authenticating sources and lineages of digital objects</title>
@@ -32,6 +62,49 @@ and verification of the relationships between objects and sources (certification
 supports the lifecycle management of source identities (using cryptographic keys) and relationships
 between objects and sources. This lifecycle management includes the revocation of source identity
 keys and previously accepted object-source relationships.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CodeT5&#43;&#43;: A Pre-trained Programming Language Model for Code Summarization Task</title>
+      <link>/project/codet5&#43;&#43;-mids/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>/project/codet5&#43;&#43;-mids/</guid>
+      <description>&lt;p&gt;There has been considerable research in building pre-trained models for programming language tasks, such as CodeBERT and CodeT5, that enable several downstream tasks, including code summarization, generation, and translation. In this paper, we focus on the task of automated code summarization that translates Python source code into a natural language docstring. Towards this end, we propose CodeT5++, extensions to CodeT5 where we introduce novel pre-training tasks that capture relevant source code features most useful in code summarization tasks. Specifically, we pretrain the model to (1) predict masked return values of Python functions, (2) detect whether a docstring and source code pair is an accurate representation of the function, and (3) predict masked function names of Python functions.Subsequently, we fine-tune the models for the code summarization task and evaluate the performance using a smoothed BLEU-4 score, a
+precision-based metric applicable in translation tasks. Finally, we analyze how the pre-training steps help improve the summarization tasks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Will Your Flights be Delayed?</title>
+      <link>/project/scale-mids/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/project/scale-mids/</guid>
+      <description>&lt;p&gt;Air travel has a significant role in shaping economies of states and this it is important to optimize every
+aspect of the flight cycle to increase the quality of airline&amp;rsquo;s services, especially, the consistent on-time
+departure of flights. However, due to multiple factors, airline flight delay is inevitable, and thus have to be
+accounted for by the airline company executives in order to optimize value to multiple stakeholders &amp;ndash;from the
+shareholders to the customers.  In this project, we seek to address the following question: can weather and
+airline data collected two hours before the scheduled departure time, predict whether the flight will be
+delayed 15 minutes or more? The models we developed in this project, predict the delay with an accuracy of $82%$.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What made the Pacific Northwest move during the July 4th weekend?</title>
+      <link>/project/stats-mids/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/project/stats-mids/</guid>
+      <description>&lt;p&gt;The effects of the COVID-19 pandemic have been felt and are still being felt around the world. In particular,
+the tourism industry suffered extreme economic losses between the many travel restrictions, cessation of
+communal social activities, and widespread fear of contracting the virus. Specifically, in 2020, there was a
+$35%$ reduction in domestic travel, resulting significant revenue loss. By contrast, there was an uptick in
+domestic travel in 2021. In this project, we seek to understand how vaccination rates are impacting vacation
+mobility in the Pacific Northwest during summer 2021. We explore the relationship between number of trips between
+100 and 500 miles and COVID-19 vaccinations controlled for key related attributes, including population
+density and number of COVID-19 cases. In addition, we also consider several additional factors that influence
+travel, such as employment status, state restrictions, and political ideology. We also note that this study only
+focuses on a small time period -July 4th weekend.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLM | Mahesh Arumugam</title>
+    <link>/tag/llm/</link>
+      <atom:link href="/tag/llm/index.xml" rel="self" type="application/rss+xml" />
+    <description>LLM</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>LLM</title>
+      <link>/tag/llm/</link>
+    </image>
+    
+    <item>
+      <title>Restor-AI-tion: Ancient Handwritten Japanese Texts Restoration</title>
+      <link>/project/capstone-mids/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/project/capstone-mids/</guid>
+      <description>&lt;p&gt;Much like cursive writing in English, the Japanese language has Kuzushiji, roughly translating to squished writing.
+This writing style was used for over a thousand years beginning in the 8th century but is not taught in modern day curricula.
+As a result, most Japanese natives, aside from a select few experts, can read Kuzushiji. Most conversion of these works from
+Kuzushiji to modern Japanese is done by hand and takes countless hours for just a single document. However, with the
+relatively recent effort by museums and libraries to digitize ancient works in an effort to safeguard these priceless artifacts against natural disasters, the use of AI for these conversions has become suddenly more realistic. This project looks to build on existing work to restore deteriorated ancient texts through the use of generative AI such as GANs or the more advanced Diffusion Models. Converting these works into modern legible Japanese can help better understand, as well as preserve the history and culture of the Japanese people.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CodeT5&#43;&#43;: A Pre-trained Programming Language Model for Code Summarization Task</title>
+      <link>/project/codet5&#43;&#43;-mids/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>/project/codet5&#43;&#43;-mids/</guid>
+      <description>&lt;p&gt;There has been considerable research in building pre-trained models for programming language tasks, such as CodeBERT and CodeT5, that enable several downstream tasks, including code summarization, generation, and translation. In this paper, we focus on the task of automated code summarization that translates Python source code into a natural language docstring. Towards this end, we propose CodeT5++, extensions to CodeT5 where we introduce novel pre-training tasks that capture relevant source code features most useful in code summarization tasks. Specifically, we pretrain the model to (1) predict masked return values of Python functions, (2) detect whether a docstring and source code pair is an accurate representation of the function, and (3) predict masked function names of Python functions.Subsequently, we fine-tune the models for the code summarization task and evaluate the performance using a smoothed BLEU-4 score, a
+precision-based metric applicable in translation tasks. Finally, we analyze how the pre-training steps help improve the summarization tasks.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

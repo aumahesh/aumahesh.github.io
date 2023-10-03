@@ -2,8 +2,8 @@
     "sortOrder": [
         {
             "columnIndex": 2,
-            "ascending": true
+            "ascending": false
         }
     ],
-    "path": "~/code/personal/workdir/aumahesh.github.io/content/project"
+    "path": "~/code/personal/workdir/aumahesh.github.io/data"
 }

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistics | Mahesh Arumugam</title>
+    <link>/tag/statistics/</link>
+      <atom:link href="/tag/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Statistics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Statistics</title>
+      <link>/tag/statistics/</link>
+    </image>
+    
+    <item>
+      <title>Will Your Flights be Delayed?</title>
+      <link>/project/scale-mids/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/project/scale-mids/</guid>
+      <description>&lt;p&gt;Air travel has a significant role in shaping economies of states and this it is important to optimize every
+aspect of the flight cycle to increase the quality of airline&amp;rsquo;s services, especially, the consistent on-time
+departure of flights. However, due to multiple factors, airline flight delay is inevitable, and thus have to be
+accounted for by the airline company executives in order to optimize value to multiple stakeholders &amp;ndash;from the
+shareholders to the customers.  In this project, we seek to address the following question: can weather and
+airline data collected two hours before the scheduled departure time, predict whether the flight will be
+delayed 15 minutes or more? The models we developed in this project, predict the delay with an accuracy of $82%$.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What made the Pacific Northwest move during the July 4th weekend?</title>
+      <link>/project/stats-mids/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/project/stats-mids/</guid>
+      <description>&lt;p&gt;The effects of the COVID-19 pandemic have been felt and are still being felt around the world. In particular,
+the tourism industry suffered extreme economic losses between the many travel restrictions, cessation of
+communal social activities, and widespread fear of contracting the virus. Specifically, in 2020, there was a
+$35%$ reduction in domestic travel, resulting significant revenue loss. By contrast, there was an uptick in
+domestic travel in 2021. In this project, we seek to understand how vaccination rates are impacting vacation
+mobility in the Pacific Northwest during summer 2021. We explore the relationship between number of trips between
+100 and 500 miles and COVID-19 vaccinations controlled for key related attributes, including population
+density and number of COVID-19 cases. In addition, we also consider several additional factors that influence
+travel, such as employment status, state restrictions, and political ideology. We also note that this study only
+focuses on a small time period -July 4th weekend.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
