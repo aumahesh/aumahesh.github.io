@@ -242,6 +242,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QKEXBS9NMR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-QKEXBS9NMR', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -271,7 +310,7 @@
 
 
 
-  <meta name="author" content="Alice Wu 吳恩達" />
+  <meta name="author" content="Mahesh Arumugam" />
 
 
 
@@ -315,9 +354,6 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 <meta property="twitter:card" content="summary_large_image" />
-
-  <meta property="twitter:site" content="@wowchemy" />
-  <meta property="twitter:creator" content="@wowchemy" />
 <meta property="twitter:image" content="/post/writing-technical-content/featured.jpg" />
 <meta property="og:site_name" content="Mahesh Arumugam" />
 <meta property="og:url" content="/post/writing-technical-content/" />
@@ -371,7 +407,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   
   "author": {
     "@type": "Person",
-    "name": "Alice Wu 吳恩達"
+    "name": "Mahesh Arumugam"
   },
   
   "publisher": {
@@ -754,13 +790,6 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
         
         
           
-            
-            <li class="nav-item d-none d-lg-inline-flex">
-              <a class="nav-link" href="https://twitter.com/GeorgeCushen" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-              </a>
-            </li>
-          
         
 
         
@@ -983,7 +1012,7 @@ data.head()
 
 
 
-<div id="chart-153786429" class="chart"></div>
+<div id="chart-917365842" class="chart"></div>
 <script>
   (function() {
     let a = setInterval( function() {
@@ -993,7 +1022,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json("./line-chart.json", function(chart) {
-        Plotly.plot('chart-153786429', chart.data, chart.layout, {responsive: true});
+        Plotly.plot('chart-917365842', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1416,13 +1445,13 @@ Crash --> [*]
   <div class="media author-card content-widget-hr">
     
       
-      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu9622f46d720e38cd8cd4293ac34383e9_1114132_270x270_fill_q75_lanczos_center.jpg" alt="Alice Wu 吳恩達">
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu9622f46d720e38cd8cd4293ac34383e9_1114132_270x270_fill_q75_lanczos_center.jpg" alt="Mahesh Arumugam">
     
 
     <div class="media-body">
-      <h5 class="card-title">Alice Wu 吳恩達</h5>
-      <h6 class="card-subtitle">Professor of Artificial Intelligence</h6>
-      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <h5 class="card-title">Mahesh Arumugam</h5>
+      <h6 class="card-subtitle">Software Architect</h6>
+      <p class="card-text">Mahesh Arumugam is a software engineer passionate about designing, programming, and deploying systems. Currently, I work in data security and analytics domain.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -1454,24 +1483,7 @@ Crash --> [*]
       
     
     <li>
-      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=9kUt4sUAAAAJ" target="_blank" rel="noopener">
         <i class="fas fa-graduation-cap"></i>
       </a>
     </li>
@@ -1488,7 +1500,7 @@ Crash --> [*]
       
     
     <li>
-      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+      <a href="https://github.com/aumahesh" target="_blank" rel="noopener">
         <i class="fab fa-github"></i>
       </a>
     </li>
@@ -1505,7 +1517,7 @@ Crash --> [*]
       
     
     <li>
-      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+      <a href="https://www.linkedin.com/in/aumahesh/" target="_blank" rel="noopener">
         <i class="fab fa-linkedin"></i>
       </a>
     </li>
@@ -1520,7 +1532,7 @@ Crash --> [*]
       
     
     <li>
-      <a href="/uploads/resume.pdf" >
+      <a href="/uploads/arumugam.pdf" >
         <i class="ai ai-cv"></i>
       </a>
     </li>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Professional | Mahesh Arumugam</title>
+    <link>/tag/professional/</link>
+      <atom:link href="/tag/professional/index.xml" rel="self" type="application/rss+xml" />
+    <description>Professional</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Professional</title>
+      <link>/tag/professional/</link>
+    </image>
+    
+    <item>
+      <title>Lifecycle management of Tetration Connectors</title>
+      <link>/project/connectors-tetration/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/project/connectors-tetration/</guid>
+      <description>&lt;p&gt;Connectors bring in telemetry and
+analytics data from various vantage points in a data center. Typical connectors
+include network switches and routers, application delivery controllers such as
+F5 Big-IP and Citrix NetScaler, and firewalls. Tetration uses the data
+collected from such connectors to baseline the behavior in a network and
+automatically organize the workloads in the data center. In addition, Tetration
+also recommends Zero-Trust policies and enforces them. As part of this project,
+I designed and developed a framework for the lifecycle management of connector
+integration, including: (i) creation of the connector integration, (ii)
+configuration management of the connectors, and (iii) troubleshooting
+infrastructure.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>StyleBooks: A declarative configuration language for Citrix ADC</title>
+      <link>/project/stylebooks-citrix/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>/project/stylebooks-citrix/</guid>
+      <description>&lt;p&gt;StyleBooks is a declarative
+language that allow users to consume NetScaler (now, called Citrix ADC)
+services in a variety of data center configurations and cloud
+architectures, providing both configuration simplification and smart
+operational visibility. It captures useful NetScaler configuration and
+includes operational aspects (health, counters, logs). New StyleBooks can be
+created by cloning and modifying existing ones, or by composing existing
+StyleBooks into new ones, thus, allowing for modular and incremental design.
+In this project, I was responsible for the following: (i) compiler for
+StyleBooks that generates an equivalent Python package, (ii) design of the
+runtime engine that instantiates a compiled StyleBook to create an actual
+configuration, (iii) design of config audit and config diffs for computing the
+differences when an existing configuration is updated, (iv) design of the
+REST APIs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Distributed hash table for Cluster of Citrix ADCs</title>
+      <link>/project/dht-citrix/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>/project/dht-citrix/</guid>
+      <description>&lt;p&gt;DHT provides a key-value store
+for NetScaler (now, called Citrix ADC) packet engines to store application
+state in multiple cores of a node or across multiple nodes/cores in a cluster.
+DHT provides eventual consistency semantics to the applications. In this
+project, I was responsible for the following: (i) reliable replication of
+entries across the nodes, (ii) dealing with nodes joining/leaving (transitional
+period) the cluster, (iii) hunting for existing key-value entry in the cluster
+during transitional period.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

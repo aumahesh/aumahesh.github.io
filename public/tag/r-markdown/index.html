@@ -239,6 +239,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QKEXBS9NMR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-QKEXBS9NMR', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -268,7 +307,7 @@
 
 
 
-  <meta name="author" content="Alice Wu 吳恩達" />
+  <meta name="author" content="Mahesh Arumugam" />
 
 
 
@@ -276,7 +315,7 @@
 
   
 
-<meta name="description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." />
+<meta name="description" content="Software Architect" />
 
 
 
@@ -312,14 +351,11 @@
 
 
 <meta property="twitter:card" content="summary" />
-
-  <meta property="twitter:site" content="@wowchemy" />
-  <meta property="twitter:creator" content="@wowchemy" />
 <meta property="twitter:image" content="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Mahesh Arumugam" />
 <meta property="og:url" content="/tag/r-markdown/" />
 <meta property="og:title" content="R Markdown | Mahesh Arumugam" />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="Software Architect" /><meta property="og:image" content="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta property="og:updated_time" content="2020-12-01T21:13:14-05:00" />
@@ -696,13 +732,6 @@
 
         
         
-          
-            
-            <li class="nav-item d-none d-lg-inline-flex">
-              <a class="nav-link" href="https://twitter.com/GeorgeCushen" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-              </a>
-            </li>
           
         
 

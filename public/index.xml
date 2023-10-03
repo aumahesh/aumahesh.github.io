@@ -33,6 +33,29 @@
     </item>
     
     <item>
+      <title>Signet-ring: A framework for authenticating sources and lineages of digital objects</title>
+      <link>/project/signet-ring/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/project/signet-ring/</guid>
+      <description>&lt;p&gt;Verifying sources of information is vital in assessing the credibility of facts
+and data in our increasingly digital world; often, the verification of the sources
+is as necessary as the information they provide. To battle misinformation and
+disinformation through digital objects, it is salient to provide consumers the ability
+to verify whether or not information (or data) provided by such sources was altered
+prior to its use (e.g., publication). To address these concerns, we designed and implemented
+Signet-ring. Signet-ring registers and authenticates all
+participants in the origination and publication process, potentially including the sources,
+publishers, and applications. It manages the following critical workflows: (1) documentation
+and verification of the relationships between objects and sources (certification),
+(2) documentation and verification of the relationships between different related objects
+(lineage), and (3) authentication of sources to each other (handshake). Furthermore, Signet-ring
+supports the lifecycle management of source identities (using cryptographic keys) and relationships
+between objects and sources. This lifecycle management includes the revocation of source identity
+keys and previously accepted object-source relationships.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
       <link>/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
@@ -154,6 +177,25 @@
     </item>
     
     <item>
+      <title>Lifecycle management of Tetration Connectors</title>
+      <link>/project/connectors-tetration/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/project/connectors-tetration/</guid>
+      <description>&lt;p&gt;Connectors bring in telemetry and
+analytics data from various vantage points in a data center. Typical connectors
+include network switches and routers, application delivery controllers such as
+F5 Big-IP and Citrix NetScaler, and firewalls. Tetration uses the data
+collected from such connectors to baseline the behavior in a network and
+automatically organize the workloads in the data center. In addition, Tetration
+also recommends Zero-Trust policies and enforces them. As part of this project,
+I designed and developed a framework for the lifecycle management of connector
+integration, including: (i) creation of the connector integration, (ii)
+configuration management of the connectors, and (iii) troubleshooting
+infrastructure.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Writing technical content in Markdown</title>
       <link>/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
@@ -257,7 +299,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-153786429&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-917365842&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -267,7 +309,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-153786429&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-917365842&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -625,7 +667,7 @@ Crash --&gt; [*]
       <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
       <guid>/privacy/</guid>
-      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+      <description>&lt;p&gt;My website does not host third-party cookies and hosts three first-party cookies just to generally understand the audience of the website. The cookies are from Google Analytics.&lt;/p&gt;
 </description>
     </item>
     
@@ -639,24 +681,25 @@ Crash --&gt; [*]
     </item>
     
     <item>
-      <title>Example Project</title>
-      <link>/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>StyleBooks: A declarative configuration language for Citrix ADC</title>
+      <link>/project/stylebooks-citrix/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>/project/stylebooks-citrix/</guid>
+      <description>&lt;p&gt;StyleBooks is a declarative
+language that allow users to consume NetScaler (now, called Citrix ADC)
+services in a variety of data center configurations and cloud
+architectures, providing both configuration simplification and smart
+operational visibility. It captures useful NetScaler configuration and
+includes operational aspects (health, counters, logs). New StyleBooks can be
+created by cloning and modifying existing ones, or by composing existing
+StyleBooks into new ones, thus, allowing for modular and incremental design.
+In this project, I was responsible for the following: (i) compiler for
+StyleBooks that generates an equivalent Python package, (ii) design of the
+runtime engine that instantiates a compiled StyleBook to create an actual
+configuration, (iii) design of config audit and config diffs for computing the
+differences when an existing configuration is updated, (iv) design of the
+REST APIs.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -675,6 +718,22 @@ Crash --&gt; [*]
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Distributed hash table for Cluster of Citrix ADCs</title>
+      <link>/project/dht-citrix/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>/project/dht-citrix/</guid>
+      <description>&lt;p&gt;DHT provides a key-value store
+for NetScaler (now, called Citrix ADC) packet engines to store application
+state in multiple cores of a node or across multiple nodes/cores in a cluster.
+DHT provides eventual consistency semantics to the applications. In this
+project, I was responsible for the following: (i) reliable replication of
+entries across the nodes, (ii) dealing with nodes joining/leaving (transitional
+period) the cluster, (iii) hunting for existing key-value entry in the cluster
+during transitional period.&lt;/p&gt;
 </description>
     </item>
     

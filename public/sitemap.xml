@@ -10,6 +10,26 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/privacy/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/project/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/project/signet-ring/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -27,10 +47,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -64,6 +80,14 @@
   </url><url>
     <loc>/tag/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/project/connectors-tetration/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/professional/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/post/writing-technical-content/</loc>
@@ -102,24 +126,8 @@
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/project/example/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>/project/stylebooks-citrix/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/publication/journal-article/</loc>
@@ -128,6 +136,10 @@
   </url><url>
     <loc>/publication-type/article-journal/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/project/dht-citrix/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/publication/conference-paper/</loc>
