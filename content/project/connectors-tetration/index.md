@@ -2,7 +2,7 @@
 date: "2020-01-01"
 external_link: ""
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/@homajob)'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/@jordanharrison)'
   focal_point: Smart
 links:
 slides: 

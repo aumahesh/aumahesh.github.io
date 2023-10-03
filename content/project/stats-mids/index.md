@@ -2,7 +2,7 @@
 date: "2021-08-01"
 external_link: ""
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/@gitfo)'
   focal_point: Smart
 links:
 slides: 
