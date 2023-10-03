@@ -24,7 +24,7 @@ publication_types:
 - abstract-conference
 publishDate: "2023-05-01T00:00:00Z"
 slides: 
-summary: A framework for authenticatin sources and lineages of digital objects.
+summary: A framework for authenticating sources and lineages of digital objects.
 tags: []
 title: "Signet-ring: A framework for authenticating sources and lineages of digital objects"
 url_code: 

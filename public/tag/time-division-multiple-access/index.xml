@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>time-division multiple access | Mahesh Arumugam</title>
+    <link>/tag/time-division-multiple-access/</link>
+      <atom:link href="/tag/time-division-multiple-access/index.xml" rel="self" type="application/rss+xml" />
+    <description>time-division multiple access</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Nov 2008 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>time-division multiple access</title>
+      <link>/tag/time-division-multiple-access/</link>
+    </image>
+    
+    <item>
+      <title>A Distributed and Deterministic TDMA Algorithm for Write-All-With-Collision Model</title>
+      <link>/publication/slow-sss10/</link>
+      <pubDate>Sat, 01 Nov 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/slow-sss10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Distributed and Deterministic TDMA Algorithm for Write-All-With-Collision Model</title>
+      <link>/publication/tdma-sss08/</link>
+      <pubDate>Sat, 01 Nov 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/tdma-sss08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Case Study on Prototyping Power Management Protocols for Sensor Networks</title>
+      <link>/publication/power-sss06/</link>
+      <pubDate>Wed, 01 Nov 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/power-sss06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-Stabilizing Deterministic TDMA for Sensor Networks</title>
+      <link>/publication/tdma-icdcit05/</link>
+      <pubDate>Thu, 01 Dec 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/tdma-icdcit05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TDMA Service for Sensor Networks</title>
+      <link>/publication/tdma-service-adsn04/</link>
+      <pubDate>Mon, 01 Mar 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/tdma-service-adsn04/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collision-free Communication in Sensor Networks</title>
+      <link>/publication/collision-free-comm-sss03/</link>
+      <pubDate>Sun, 01 Jun 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/collision-free-comm-sss03/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

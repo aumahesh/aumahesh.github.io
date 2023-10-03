@@ -2,34 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tag/data-science/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/llm/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/machine-learning/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/mids/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/project/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/project/capstone-mids/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/publication-type/abstract-conference/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -44,6 +16,26 @@
   </url><url>
     <loc>/publication/signet-ring-hcss23/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/data-science/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/machine-learning/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/mids/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/project/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/project/landuse-mids/</loc>
@@ -63,6 +55,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/project/codet5&#43;&#43;-mids/</loc>
+    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/llm/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -90,10 +86,6 @@
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/project/stylebooks-citrix/</loc>
     <lastmod>2017-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -102,10 +94,177 @@
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/publication-type/conference/</loc>
+    <lastmod>2009-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/network-protocols/</loc>
+    <lastmod>2009-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/programming-tool/</loc>
+    <lastmod>2009-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/prose-scube09/</loc>
+    <lastmod>2009-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/self-stabilization/</loc>
+    <lastmod>2009-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/sensor-networks/</loc>
+    <lastmod>2009-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/slow-sss10/</loc>
+    <lastmod>2008-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/tdma-sss08/</loc>
+    <lastmod>2008-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/collision-free-communication/</loc>
+    <lastmod>2008-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/time-division-multiple-access/</loc>
+    <lastmod>2008-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/authentication/</loc>
+    <lastmod>2007-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/auth-sss07/</loc>
+    <lastmod>2007-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/data-dissemination/</loc>
+    <lastmod>2007-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/symmetric-keys/</loc>
+    <lastmod>2007-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication-type/workshop/</loc>
+    <lastmod>2007-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/power-sss06/</loc>
+    <lastmod>2006-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/adaptation/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/adaptation-inss06/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/distributed-reset/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/tdma-icdcit05/</loc>
+    <lastmod>2005-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/exscal-rtcsa05/</loc>
+    <lastmod>2005-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/large-scale-deployment/</loc>
+    <lastmod>2005-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/convergecast/</loc>
+    <lastmod>2005-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/energy-efficiency/</loc>
+    <lastmod>2005-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/timeliness/</loc>
+    <lastmod>2005-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/tradeoff-inss05/</loc>
+    <lastmod>2005-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/causal-observer-inss04/</loc>
+    <lastmod>2004-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/causal-delivery/</loc>
+    <lastmod>2004-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/logical-timestamps/</loc>
+    <lastmod>2004-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/broadcast/</loc>
+    <lastmod>2004-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/local-gossip/</loc>
+    <lastmod>2004-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/tdma-service-adsn04/</loc>
+    <lastmod>2004-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/atomicity-models/</loc>
+    <lastmod>2003-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/distributed-systems/</loc>
+    <lastmod>2003-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/transformation/</loc>
+    <lastmod>2003-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/transformation-opodis03/</loc>
+    <lastmod>2003-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/write-all-with-collision-wac-model/</loc>
+    <lastmod>2003-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/collision-free-comm-sss03/</loc>
+    <lastmod>2003-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/composition-ft-components-dsn03/</loc>
+    <lastmod>2003-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/composition/</loc>
+    <lastmod>2003-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/fault-tolerance/</loc>
+    <lastmod>2003-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/categories/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/read/write-model/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

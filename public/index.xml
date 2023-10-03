@@ -13,19 +13,6 @@
     </image>
     
     <item>
-      <title>Restor-AI-tion: Ancient Handwritten Japanese Texts Restoration</title>
-      <link>/project/capstone-mids/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/project/capstone-mids/</guid>
-      <description>&lt;p&gt;Much like cursive writing in English, the Japanese language has Kuzushiji, roughly translating to squished writing.
-This writing style was used for over a thousand years beginning in the 8th century but is not taught in modern day curricula.
-As a result, most Japanese natives, aside from a select few experts, can read Kuzushiji. Most conversion of these works from
-Kuzushiji to modern Japanese is done by hand and takes countless hours for just a single document. However, with the
-relatively recent effort by museums and libraries to digitize ancient works in an effort to safeguard these priceless artifacts against natural disasters, the use of AI for these conversions has become suddenly more realistic. This project looks to build on existing work to restore deteriorated ancient texts through the use of generative AI such as GANs or the more advanced Diffusion Models. Converting these works into modern legible Japanese can help better understand, as well as preserve the history and culture of the Japanese people.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Signet-ring: A framework for authenticating sources and lineages of digital objects</title>
       <link>/publication/signet-ring-hcss23/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
@@ -155,15 +142,6 @@ infrastructure.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>StyleBooks: A declarative configuration language for Citrix ADC</title>
       <link>/project/stylebooks-citrix/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
@@ -199,6 +177,118 @@ entries across the nodes, (ii) dealing with nodes joining/leaving (transitional
 period) the cluster, (iii) hunting for existing key-value entry in the cluster
 during transitional period.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>ProSe: A Programming Tool for Rapid Prototyping of Sensor Networks</title>
+      <link>/publication/prose-scube09/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/prose-scube09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Distributed and Deterministic TDMA Algorithm for Write-All-With-Collision Model</title>
+      <link>/publication/slow-sss10/</link>
+      <pubDate>Sat, 01 Nov 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/slow-sss10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Distributed and Deterministic TDMA Algorithm for Write-All-With-Collision Model</title>
+      <link>/publication/tdma-sss08/</link>
+      <pubDate>Sat, 01 Nov 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/tdma-sss08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Authentication for Bulk Data Dissemination in Sensor Networks Using Symmetric Keys</title>
+      <link>/publication/auth-sss07/</link>
+      <pubDate>Thu, 01 Nov 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/auth-sss07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Case Study on Prototyping Power Management Protocols for Sensor Networks</title>
+      <link>/publication/power-sss06/</link>
+      <pubDate>Wed, 01 Nov 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/power-sss06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptation in Sensor-Actuator Networks: A Case Study</title>
+      <link>/publication/adaptation-inss06/</link>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/adaptation-inss06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-Stabilizing Deterministic TDMA for Sensor Networks</title>
+      <link>/publication/tdma-icdcit05/</link>
+      <pubDate>Thu, 01 Dec 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/tdma-icdcit05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ExScal: Elements of an Extreme Scale Wireless Sensor Network</title>
+      <link>/publication/exscal-rtcsa05/</link>
+      <pubDate>Mon, 01 Aug 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/exscal-rtcsa05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tradeoff Between Energy and Latency for Convergecast</title>
+      <link>/publication/tradeoff-inss05/</link>
+      <pubDate>Wed, 01 Jun 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/tradeoff-inss05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate Causal Observer</title>
+      <link>/publication/causal-observer-inss04/</link>
+      <pubDate>Tue, 01 Jun 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/causal-observer-inss04/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TDMA Service for Sensor Networks</title>
+      <link>/publication/tdma-service-adsn04/</link>
+      <pubDate>Mon, 01 Mar 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/tdma-service-adsn04/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformations for Write-All-With-Collision Model</title>
+      <link>/publication/transformation-opodis03/</link>
+      <pubDate>Mon, 01 Dec 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/transformation-opodis03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collision-free Communication in Sensor Networks</title>
+      <link>/publication/collision-free-comm-sss03/</link>
+      <pubDate>Sun, 01 Jun 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/collision-free-comm-sss03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Composing Distributed Fault-Tolerance Components</title>
+      <link>/publication/composition-ft-components-dsn03/</link>
+      <pubDate>Sun, 01 Jun 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/composition-ft-components-dsn03/</guid>
+      <description></description>
     </item>
     
     <item>

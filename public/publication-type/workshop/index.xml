@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workshop | Mahesh Arumugam</title>
+    <link>/publication-type/workshop/</link>
+      <atom:link href="/publication-type/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <description>workshop</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Nov 2007 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>workshop</title>
+      <link>/publication-type/workshop/</link>
+    </image>
+    
+    <item>
+      <title>Authentication for Bulk Data Dissemination in Sensor Networks Using Symmetric Keys</title>
+      <link>/publication/auth-sss07/</link>
+      <pubDate>Thu, 01 Nov 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/auth-sss07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tradeoff Between Energy and Latency for Convergecast</title>
+      <link>/publication/tradeoff-inss05/</link>
+      <pubDate>Wed, 01 Jun 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/tradeoff-inss05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate Causal Observer</title>
+      <link>/publication/causal-observer-inss04/</link>
+      <pubDate>Tue, 01 Jun 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/causal-observer-inss04/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Composing Distributed Fault-Tolerance Components</title>
+      <link>/publication/composition-ft-components-dsn03/</link>
+      <pubDate>Sun, 01 Jun 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/composition-ft-components-dsn03/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

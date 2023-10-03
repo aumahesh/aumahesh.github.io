@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: 
-summary: Connectors bring in telemetry andanalytics data from various vantage points in a data center.
+summary: Connectors bring in telemetry and analytics data from various vantage points in a data center.
 tags:
 - Professional
 title: Lifecycle management of Tetration Connectors
