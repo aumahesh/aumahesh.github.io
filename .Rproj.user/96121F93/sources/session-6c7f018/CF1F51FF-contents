@@ -60,7 +60,7 @@ sections:
   content:
     date_format: October 2021
     items:
-    - company: Zscaler, Inc.
+    - company: Zscaler
       company_logo: 
       company_url: "https://www.zscaler.com"
       date_end: ""
@@ -84,11 +84,11 @@ sections:
       title: Principal Software Engineer
     - company: Cisco Tetration
       company_logo: 
-      company_url: "https://www.cisco.com/site/us/en/products/security/secure-workload/index.html"
+      company_url: "https://www.cisco.com/"
       date_end: "2020-11-02"
       date_start: "2017-06-21"
       description: |2-
-        * Responsible for design and development of connector framework for Tetration. The control plane in- cludes provisioning, configuring, monitoring, and troubleshooting connectors. And, designed and developed various connectors that collect network telemetry from routers, switches (NetFlow / IPFIX), middle- boxes, and VPN endpoints. In addition, designed and developed annotation framework for LDAP annotations on flow telemetry.
+        * Responsible for design and development of connector framework for   Tetration . The control plane in- cludes provisioning, configuring, monitoring, and troubleshooting connectors. And, designed and deve- loped various connectors that collect network telemetry from routers, switches (NetFlow / IPFIX), middle- boxes, and VPN endpoints. In addition, designed and developed annotation framework for LDAP anno- tations on flow telemetry.
         * Designed and developed a full-stack cloud security posture management system for AWS accounts (e.g., CIS AWS benchmark), with periodic cloud posture PDF report generation.
       location: "Remote (HQ: Austin, TX)"
       title: Principal Software Engineer      
@@ -98,9 +98,9 @@ sections:
       date_end: "2017-06-20"
       date_start: "2011-04-18"
       description: |2-
-        * Responsible for design and development of a declarative configuration language (StyleBooks) for [NetScaler](https://www.netscaler.com/), an application delivery controller. Wrote the compiler to generate Python packages from [Stylebooks](https://docs.netscaler.com/en-us/citrix-application-delivery-management-software/current-release/stylebooks.html) source files.
-        * Designed and developed the integration of NetScaler with Cisco SDN frameworks such as Cisco Application Centric Infrastructure ([ACI](https://www.cisco.com/site/us/en/products/networking/cloud-networking/application-centric-infrastructure/index.html)) and Cisco Remote Integrated Services Engine ([RISE](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/sw/nx-os/riseNetscaler/install_and_cfg/guide/cisco_nexus7000_rise-netscaler_config_guide_8x/Configuring-Rise.html)).
-        * Designed and developed an eventually consistent key-value store in the data-path of NetScaler to manage session persistence information across of a cluster of NetScalers. 
+        * Responsible for design and development of a declarative configuration language (StyleBooks) for NetScalers (now, called {\small\website{https://www.citrix.com/products/citrix-adc/}{Citrix ADC}}). Wrote the compiler to generate Python packages from {\small\website{http://bit.ly/citrix-stylebook}{StyleBooks}} source files.
+        * Designed and developed the integration of Citrix ADC with Cisco SDN frameworks such as Cisco Application Centric Infrastructure ({\small\website{http://bit.ly/aumahesh-aci}{ACI}}) and Cisco Remote Integrated Services Engine ({\small\website{http://bit.ly/cisco-rise}{RISE}}).
+        * Designed and developed an eventually consistent key-value store in the data-path of Citrix ADC to manage session persistence information across of a cluster of Citrix ADCs. 
       location: "Remote (HQ: Austin, TX)"
       title: Principal Software Engineer           
     - company: Cisco Systems, Inc
@@ -109,7 +109,7 @@ sections:
       date_end: "2011-04-15"
       date_start: "2006-10-16"
       description: |2-
-        Responsible for design and development of control plane software for network protocols such as IP and MPLS, traffic engineering (TE) and Fast Re-Route (FRR) technologies, and access control list for Cisco Edge Router [ASR9K](http://bit.ly/cisco-asr9k). In addition, worked on scale optimizations to improve convergence in routing protocols. 
+        Responsible for design and development of control plane software for network protocols such as IP and MPLS, traffic engineering (TE) and Fast Re-Route (FRR) technologies, and access control list for Cisco Edge Router {\small\website{http://bit.ly/cisco-asr9k}{ASR9K}}. In addition, worked on scale optimizations to improve convergence in routing protocols. 
       location: "Remote (HQ: Austin, TX)"
       title: Senior Software Engineer        
     title: Experience

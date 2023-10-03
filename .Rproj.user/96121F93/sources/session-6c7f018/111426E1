@@ -1,26 +1,26 @@
 {
-    "id": "2D5C5FE9",
-    "path": "~/code/personal/workdir/aumahesh.github.io/data/page_sharer.toml",
-    "project_path": "data/page_sharer.toml",
-    "type": "toml",
+    "id": "111426E1",
+    "path": "~/code/personal/workdir/aumahesh.github.io/content/_index.md",
+    "project_path": "content/_index.md",
+    "type": "markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1696313607701.0,
+    "created": 1696314918434.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "41,16",
-        "scrollLine": "22"
+        "cursorPosition": "62,28",
+        "scrollLine": "60"
     },
     "folds": "",
-    "lastKnownWriteTime": 1696313636,
+    "lastKnownWriteTime": 1696315282,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1696313636002,
+    "last_content_update": 1696315282526,
     "read_only": false,
     "read_only_alternatives": []
 }
