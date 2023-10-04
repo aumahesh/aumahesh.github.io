@@ -23,7 +23,7 @@ slides:
 summary:  we propose a variation of the shared memory model, the SF shared memory model, where the actions of each node are partitioned into slow actions and fast actions. The traditional shared memory model consists only of fast actions and a lost message can disable the nodes from execution. Slow actions, on the other hand, enable the nodes to use slightly stale state from other nodes, so a message loss does not prevent the nodes from execution.
 tags: ["sensor networks", "shared-memory model", "SF shared-memory model", "transformations", "slow actions", "fast actions"]
 title: >
-  "Slow is Fast” for Wireless Sensor Networks in the Presence of Message Losses.
+  ''Slow is Fast'' for Wireless Sensor Networks in the Presence of Message Losses.
 url_code: 
 url_dataset: 
 url_pdf: ""

@@ -79,7 +79,7 @@ sections:
       date_end: "2021-10-13"
       date_start: "2021-05-17"
       description: >
-        Responsible for the architecture and design of Molecula as a Service platform that enables customers to (1) store features in an optimized format, (2) retrieve responses for complex analytical queries quickly, (3) serve features to analytical and ML engines. In this role, contributed to development of control plane for Molecula as a Service that handles management of organizations/tenants, users, roles, deployment of feature store instances, queries to tables on a deployment, etc.
+        * Responsible for the architecture and design of Molecula as a Service platform that enables customers to (1) store features in an optimized format, (2) retrieve responses for complex analytical queries quickly, (3) serve features to analytical and ML engines. In this role, contributed to development of control plane for Molecula as a Service that handles management of organizations/tenants, users, roles, deployment of feature store instances, queries to tables on a deployment, etc.
       location: "Remote (HQ: Austin, TX)"
       title: Principal Software Engineer
     - company: Cisco Tetration
@@ -109,7 +109,7 @@ sections:
       date_end: "2011-04-15"
       date_start: "2006-10-16"
       description: |2-
-        Responsible for design and development of control plane software for network protocols such as IP and MPLS, traffic engineering (TE) and Fast Re-Route (FRR) technologies, and access control list for Cisco Edge Router [ASR9K](http://bit.ly/cisco-asr9k). In addition, worked on scale optimizations to improve convergence in routing protocols. 
+        * Responsible for design and development of control plane software for network protocols such as IP and MPLS, traffic engineering (TE) and Fast Re-Route (FRR) technologies, and access control list for Cisco Edge Router [ASR9K](http://bit.ly/cisco-asr9k). In addition, worked on scale optimizations to improve convergence in routing protocols. 
       location: "San Jose, CA"
       title: Senior Software Engineer        
     title: Experience
@@ -247,6 +247,6 @@ sections:
 #   design:
 #     columns: "2"
 #   id: contact
-title: null
+title: Mahesh Arumugam
 type: landing
 ---

@@ -33,6 +33,9 @@ social:
 # - icon: envelope
 #   icon_pack: fas
 #   link: /#contact
+- icon: aumahesh.png
+  icon_pack: custom
+  link: https://aumahesh.github.io/
 - icon: graduation-cap
   icon_pack: fas
   link: https://scholar.google.com/citations?hl=en&user=9kUt4sUAAAAJ
