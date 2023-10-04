@@ -20,6 +20,7 @@ highlight_name: true
 interests:
 - Data Science
 - Machine Learning
+- LLM
 - Distributed Systems
 - Network Analytics
 - Programming
@@ -50,5 +51,5 @@ superuser: true
 title: Mahesh Arumugam
 ---
 
-Mahesh Arumugam is a software engineer passionate about designing, programming, and deploying systems. Currently, I work in data security and analytics domain.
+Mahesh Arumugam is a software architect passionate about designing, programming, and deploying systems. Currently, Mahesh works in data security and analytics domain. He is a technical professional with over 17 years of diverse and progressively responsible experience in network analytics, security, network infrastructure, research and development, team leadership, product development, engineering, problem-solving and mentoring. He has published his research work at various conferences and journals. In addition, he has over 15 patents accepted/submitted covering his work in the industry.
 {style="text-align: justify;"}
