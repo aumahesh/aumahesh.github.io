@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>journal | Mahesh Arumugam</title>
+    <link>/publication-type/journal/</link>
+      <atom:link href="/publication-type/journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>journal</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu12bdbb9306c9be87abd0beb723d7f65d_56686_512x512_fill_lanczos_center_3.png</url>
+      <title>journal</title>
+      <link>/publication-type/journal/</link>
+    </image>
+    
+    <item>
+      <title>&#34;Slow is Fast” for Wireless Sensor Networks in the Presence of Message Losses.
+</title>
+      <link>/publication/slow-jpdc15/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/slow-jpdc15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infuse: A TDMA Based Data Dissemination Protocol for Sensor Networks</title>
+      <link>/publication/infuse06/</link>
+      <pubDate>Fri, 01 Dec 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/infuse06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-Stabilizing Deterministic Time Division Multiple Access for Sensor Networks</title>
+      <link>/publication/tdma-aiaa06/</link>
+      <pubDate>Tue, 01 Aug 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/tdma-aiaa06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformations for Write-All-With-Collision Model</title>
+      <link>/publication/transformation-communications06/</link>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/transformation-communications06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate Causal Observer</title>
+      <link>/publication/causal-observer-sice06/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/causal-observer-sice06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Line in the Sand: A Wireless Sensor Network for Target Detection, Classification, and Tracking</title>
+      <link>/publication/lites04/</link>
+      <pubDate>Wed, 01 Dec 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/lites04/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

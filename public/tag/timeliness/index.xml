@@ -5,12 +5,20 @@
     <link>/tag/timeliness/</link>
       <atom:link href="/tag/timeliness/index.xml" rel="self" type="application/rss+xml" />
     <description>timeliness</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2005 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2006 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hu12bdbb9306c9be87abd0beb723d7f65d_56686_512x512_fill_lanczos_center_3.png</url>
       <title>timeliness</title>
       <link>/tag/timeliness/</link>
     </image>
+    
+    <item>
+      <title>Approximate Causal Observer</title>
+      <link>/publication/causal-observer-sice06/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/causal-observer-sice06/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tradeoff Between Energy and Latency for Convergecast</title>

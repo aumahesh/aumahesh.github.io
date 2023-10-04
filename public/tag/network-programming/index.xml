@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>network programming | Mahesh Arumugam</title>
+    <link>/tag/network-programming/</link>
+      <atom:link href="/tag/network-programming/index.xml" rel="self" type="application/rss+xml" />
+    <description>network programming</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2006 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu12bdbb9306c9be87abd0beb723d7f65d_56686_512x512_fill_lanczos_center_3.png</url>
+      <title>network programming</title>
+      <link>/tag/network-programming/</link>
+    </image>
+    
+    <item>
+      <title>Infuse: A TDMA Based Data Dissemination Protocol for Sensor Networks</title>
+      <link>/publication/infuse06/</link>
+      <pubDate>Fri, 01 Dec 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/infuse06/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

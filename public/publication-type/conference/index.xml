@@ -5,26 +5,27 @@
     <link>/publication-type/conference/</link>
       <atom:link href="/publication-type/conference/index.xml" rel="self" type="application/rss+xml" />
     <description>conference</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2009 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2010 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hu12bdbb9306c9be87abd0beb723d7f65d_56686_512x512_fill_lanczos_center_3.png</url>
       <title>conference</title>
       <link>/publication-type/conference/</link>
     </image>
+    
+    <item>
+      <title>&#34;Slow is Fast” for Wireless Sensor Networks in the Presence of Message Losses.
+</title>
+      <link>/publication/slow-sss10/</link>
+      <pubDate>Wed, 01 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/slow-sss10/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ProSe: A Programming Tool for Rapid Prototyping of Sensor Networks</title>
       <link>/publication/prose-scube09/</link>
       <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
       <guid>/publication/prose-scube09/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Distributed and Deterministic TDMA Algorithm for Write-All-With-Collision Model</title>
-      <link>/publication/slow-sss10/</link>
-      <pubDate>Sat, 01 Nov 2008 00:00:00 +0000</pubDate>
-      <guid>/publication/slow-sss10/</guid>
       <description></description>
     </item>
     

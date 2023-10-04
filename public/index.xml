@@ -7,7 +7,7 @@
     <description>Mahesh Arumugam</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hu12bdbb9306c9be87abd0beb723d7f65d_56686_512x512_fill_lanczos_center_3.png</url>
       <title>Mahesh Arumugam</title>
       <link>/</link>
     </image>
@@ -164,6 +164,15 @@ REST APIs.&lt;/p&gt;
     </item>
     
     <item>
+      <title>&#34;Slow is Fast” for Wireless Sensor Networks in the Presence of Message Losses.
+</title>
+      <link>/publication/slow-jpdc15/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/slow-jpdc15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Distributed hash table for Cluster of Citrix ADCs</title>
       <link>/project/dht-citrix/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
@@ -180,6 +189,15 @@ during transitional period.&lt;/p&gt;
     </item>
     
     <item>
+      <title>&#34;Slow is Fast” for Wireless Sensor Networks in the Presence of Message Losses.
+</title>
+      <link>/publication/slow-sss10/</link>
+      <pubDate>Wed, 01 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/slow-sss10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ProSe: A Programming Tool for Rapid Prototyping of Sensor Networks</title>
       <link>/publication/prose-scube09/</link>
       <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
@@ -188,10 +206,10 @@ during transitional period.&lt;/p&gt;
     </item>
     
     <item>
-      <title>A Distributed and Deterministic TDMA Algorithm for Write-All-With-Collision Model</title>
-      <link>/publication/slow-sss10/</link>
-      <pubDate>Sat, 01 Nov 2008 00:00:00 +0000</pubDate>
-      <guid>/publication/slow-sss10/</guid>
+      <title>Stabilizing Interference-Free Slot Assignment for Wireless Mesh Networks</title>
+      <link>/publication/tdma09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/tdma09/</guid>
       <description></description>
     </item>
     
@@ -212,6 +230,14 @@ during transitional period.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Infuse: A TDMA Based Data Dissemination Protocol for Sensor Networks</title>
+      <link>/publication/infuse06/</link>
+      <pubDate>Fri, 01 Dec 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/infuse06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Case Study on Prototyping Power Management Protocols for Sensor Networks</title>
       <link>/publication/power-sss06/</link>
       <pubDate>Wed, 01 Nov 2006 00:00:00 +0000</pubDate>
@@ -220,10 +246,42 @@ during transitional period.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Self-Stabilizing Deterministic Time Division Multiple Access for Sensor Networks</title>
+      <link>/publication/tdma-aiaa06/</link>
+      <pubDate>Tue, 01 Aug 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/tdma-aiaa06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Adaptation in Sensor-Actuator Networks: A Case Study</title>
       <link>/publication/adaptation-inss06/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
       <guid>/publication/adaptation-inss06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformations for Write-All-With-Collision Model</title>
+      <link>/publication/transformation-communications06/</link>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/transformation-communications06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SS-TDMA: A Self-Stabilizing MAC for Sensor Networks</title>
+      <link>/publication/ss-tdma06/</link>
+      <pubDate>Wed, 01 Mar 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/ss-tdma06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate Causal Observer</title>
+      <link>/publication/causal-observer-sice06/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/causal-observer-sice06/</guid>
       <description></description>
     </item>
     
@@ -248,6 +306,14 @@ during transitional period.&lt;/p&gt;
       <link>/publication/tradeoff-inss05/</link>
       <pubDate>Wed, 01 Jun 2005 00:00:00 +0000</pubDate>
       <guid>/publication/tradeoff-inss05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Line in the Sand: A Wireless Sensor Network for Target Detection, Classification, and Tracking</title>
+      <link>/publication/lites04/</link>
+      <pubDate>Wed, 01 Dec 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/lites04/</guid>
       <description></description>
     </item>
     

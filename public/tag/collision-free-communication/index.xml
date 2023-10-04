@@ -5,18 +5,18 @@
     <link>/tag/collision-free-communication/</link>
       <atom:link href="/tag/collision-free-communication/index.xml" rel="self" type="application/rss+xml" />
     <description>collision-free communication</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Nov 2008 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2009 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hu12bdbb9306c9be87abd0beb723d7f65d_56686_512x512_fill_lanczos_center_3.png</url>
       <title>collision-free communication</title>
       <link>/tag/collision-free-communication/</link>
     </image>
     
     <item>
-      <title>A Distributed and Deterministic TDMA Algorithm for Write-All-With-Collision Model</title>
-      <link>/publication/slow-sss10/</link>
-      <pubDate>Sat, 01 Nov 2008 00:00:00 +0000</pubDate>
-      <guid>/publication/slow-sss10/</guid>
+      <title>Stabilizing Interference-Free Slot Assignment for Wireless Mesh Networks</title>
+      <link>/publication/tdma09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/tdma09/</guid>
       <description></description>
     </item>
     
@@ -33,6 +33,14 @@
       <link>/publication/power-sss06/</link>
       <pubDate>Wed, 01 Nov 2006 00:00:00 +0000</pubDate>
       <guid>/publication/power-sss06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SS-TDMA: A Self-Stabilizing MAC for Sensor Networks</title>
+      <link>/publication/ss-tdma06/</link>
+      <pubDate>Wed, 01 Mar 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/ss-tdma06/</guid>
       <description></description>
     </item>
     

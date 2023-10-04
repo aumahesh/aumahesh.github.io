@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>write all with collision model | Mahesh Arumugam</title>
+    <link>/tag/write-all-with-collision-model/</link>
+      <atom:link href="/tag/write-all-with-collision-model/index.xml" rel="self" type="application/rss+xml" />
+    <description>write all with collision model</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2006 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu12bdbb9306c9be87abd0beb723d7f65d_56686_512x512_fill_lanczos_center_3.png</url>
+      <title>write all with collision model</title>
+      <link>/tag/write-all-with-collision-model/</link>
+    </image>
+    
+    <item>
+      <title>Self-Stabilizing Deterministic Time Division Multiple Access for Sensor Networks</title>
+      <link>/publication/tdma-aiaa06/</link>
+      <pubDate>Tue, 01 Aug 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/tdma-aiaa06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformations for Write-All-With-Collision Model</title>
+      <link>/publication/transformation-communications06/</link>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/transformation-communications06/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

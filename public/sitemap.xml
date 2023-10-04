@@ -90,12 +90,48 @@
     <lastmod>2017-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/publication/slow-jpdc15/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/fast-actions/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication-type/journal/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/sensor-networks/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/sf-shared-memory-model/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/shared-memory-model/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/slow-actions/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/transformations/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/project/dht-citrix/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/publication/slow-sss10/</loc>
+    <lastmod>2010-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/publication-type/conference/</loc>
-    <lastmod>2009-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2010-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/tag/network-protocols/</loc>
@@ -114,23 +150,23 @@
     <lastmod>2009-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/sensor-networks/</loc>
-    <lastmod>2009-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/publication/slow-sss10/</loc>
-    <lastmod>2008-11-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/publication/tdma-sss08/</loc>
-    <lastmod>2008-11-01T00:00:00+00:00</lastmod>
+    <loc>/publication-type/book-chapter/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/tag/collision-free-communication/</loc>
-    <lastmod>2008-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/tdma09/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/tag/time-division-multiple-access/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/tdma-sss08/</loc>
     <lastmod>2008-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -154,8 +190,32 @@
     <lastmod>2007-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/tag/implicit-acknowledgments/</loc>
+    <lastmod>2006-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/infuse06/</loc>
+    <lastmod>2006-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/network-programming/</loc>
+    <lastmod>2006-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/publication/power-sss06/</loc>
     <lastmod>2006-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/deterministic-distance-2-coloring/</loc>
+    <lastmod>2006-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/tdma-aiaa06/</loc>
+    <lastmod>2006-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/write-all-with-collision-model/</loc>
+    <lastmod>2006-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/tag/adaptation/</loc>
@@ -166,8 +226,40 @@
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/tag/dependability/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/tag/distributed-reset/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/model-conversions/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/transformation-communications06/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/ss-tdma06/</loc>
+    <lastmod>2006-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/causal-observer-sice06/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/causal-delivery/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/logical-timestamps/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/timeliness/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/publication/tdma-icdcit05/</loc>
@@ -190,23 +282,27 @@
     <lastmod>2005-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/timeliness/</loc>
-    <lastmod>2005-06-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/publication/tradeoff-inss05/</loc>
     <lastmod>2005-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/publication/lites04/</loc>
+    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/instrusion-detection/</loc>
+    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/target-classification/</loc>
+    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/target-tracking/</loc>
+    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/publication/causal-observer-inss04/</loc>
-    <lastmod>2004-06-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/causal-delivery/</loc>
-    <lastmod>2004-06-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/logical-timestamps/</loc>
     <lastmod>2004-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
