@@ -65,6 +65,7 @@ sections:
       company_url: "https://www.zscaler.com"
       date_end: ""
       date_start: "2021-10-20"
+      date_end: "2023-11-17"
       # description: |2-
       #     Responsibilities include:
       # 
