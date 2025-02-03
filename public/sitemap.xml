@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tag/data-science/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/llm/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/machine-learning/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/mids/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/project/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/project/capstone-mids/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/publication-type/abstract-conference/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,26 +44,6 @@
   </url><url>
     <loc>/publication/signet-ring-hcss23/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/data-science/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/machine-learning/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/mids/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/project/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/project/landuse-mids/</loc>
@@ -55,10 +63,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/project/codet5&#43;&#43;-mids/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/llm/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
