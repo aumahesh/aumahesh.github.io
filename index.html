@@ -6,28 +6,29 @@
 <title>Mahesh Arumugam — Software Architect</title>
 <meta name="description" content="Mahesh Arumugam is a software architect with 20+ years of experience in distributed systems, AI, and production infrastructure. PhD, Michigan State. MIDS, UC Berkeley. 20+ patents.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --ink: #1a1a18;
-    --ink-mid: #4a4a45;
-    --ink-light: #8a8a82;
-    --paper: #f8f6f0;
-    --rule: rgba(26,26,24,0.12);
-    --accent: #2a4a8f;
-    --accent-light: #e8edf8;
-    --serif: 'EB Garamond', Georgia, serif;
-    --mono: 'DM Mono', monospace;
+    --ink: #111111;
+    --ink-mid: #555555;
+    --ink-light: #999999;
+    --paper: #ffffff;
+    --rule: #e5e5e5;
+    --accent: #1a56db;
+    --accent-light: #eff4ff;
+    --sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --mono: 'JetBrains Mono', 'Menlo', monospace;
   }
 
   body {
-    font-family: var(--serif);
+    font-family: var(--sans);
     background: var(--paper);
     color: var(--ink);
-    font-size: 17px;
-    line-height: 1.7;
+    font-size: 16px;
+    line-height: 1.65;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -71,16 +72,17 @@
     padding: 4rem 3rem;
   }
   .hero-left h1 {
-    font-family: var(--serif);
-    font-size: clamp(2.8rem, 5vw, 4.5rem);
-    font-weight: 400;
-    line-height: 1.1;
-    letter-spacing: -0.01em;
+    font-family: var(--sans);
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+    font-weight: 300;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
     margin-bottom: 1.5rem;
   }
   .hero-left h1 em {
-    font-style: italic;
-    color: var(--ink-mid);
+    font-style: normal;
+    font-weight: 500;
+    color: var(--ink);
   }
   .hero-subtitle {
     font-family: var(--mono);
@@ -119,8 +121,8 @@
     background: white;
   }
   .stat-block .stat-num {
-    font-family: var(--serif);
-    font-size: 2.8rem; font-weight: 400;
+    font-family: var(--sans);
+    font-size: 2rem; font-weight: 300;
     line-height: 1;
     color: var(--ink);
   }
@@ -141,7 +143,8 @@
     color: var(--ink-light); letter-spacing: 0.1em;
   }
   .section-title {
-    font-family: var(--serif); font-size: 2rem; font-weight: 400;
+    font-family: var(--sans); font-size: 1.5rem; font-weight: 500;
+    letter-spacing: -0.01em;
   }
 
   /* EXPERIENCE */
@@ -363,7 +366,7 @@
       <div class="stat-label">UC Berkeley</div>
     </div>
     <div class="stat-block">
-      <div class="stat-num" style="font-size:1.6rem;">India</div>
+      <div class="stat-num" style="font-size:1.25rem;font-weight:400;">India</div>
       <div class="stat-label">Bengaluru · Remote</div>
     </div>
   </div>
