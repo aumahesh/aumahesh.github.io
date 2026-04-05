@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mahesh Arumugam — Software Architect</title>
 <meta name="description" content="Mahesh Arumugam is a software architect with 20+ years of experience in distributed systems, AI, and production infrastructure. PhD, Michigan State. MIDS, UC Berkeley. 20+ patents.">
+<!-- Apply saved theme before render to avoid flash -->
+<script>
+  (function() {
+    const t = localStorage.getItem('theme');
+    if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    else if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+  })();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
@@ -21,6 +29,41 @@
     --accent-light: #eff4ff;
     --sans: 'Inter', system-ui, -apple-system, sans-serif;
     --mono: 'JetBrains Mono', 'Menlo', monospace;
+  }
+
+  /* DARK MODE — system preference */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #e2e2e2;
+      --ink-mid: #999999;
+      --ink-light: #555555;
+      --paper: #111111;
+      --rule: #2a2a2a;
+      --accent: #5b9cf6;
+      --accent-light: #1c2e4a;
+    }
+  }
+
+  /* DARK MODE — manual override */
+  [data-theme="dark"] {
+    --ink: #e2e2e2;
+    --ink-mid: #999999;
+    --ink-light: #555555;
+    --paper: #111111;
+    --rule: #2a2a2a;
+    --accent: #5b9cf6;
+    --accent-light: #1c2e4a;
+  }
+
+  /* LIGHT MODE — manual override */
+  [data-theme="light"] {
+    --ink: #111111;
+    --ink-mid: #555555;
+    --ink-light: #999999;
+    --paper: #ffffff;
+    --rule: #e5e5e5;
+    --accent: #1a56db;
+    --accent-light: #eff4ff;
   }
 
   body {
@@ -48,6 +91,18 @@
     color: var(--ink-mid);
     text-transform: uppercase;
   }
+  .theme-toggle {
+    position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 200;
+    background: var(--paper); border: 1px solid var(--rule);
+    cursor: pointer; font-family: var(--mono); font-size: 14px;
+    color: var(--ink-mid);
+    width: 36px; height: 36px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: color 0.2s, box-shadow 0.2s;
+  }
+  .theme-toggle:hover { color: var(--ink); box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
   .nav-links { display: flex; gap: 2rem; list-style: none; }
   .nav-links a {
     font-family: var(--mono); font-size: 12px; font-weight: 300;
@@ -110,27 +165,30 @@
   }
   .hero-cta:hover { opacity: 0.6; }
   .hero-right {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    align-items: start;
+    align-self: center;
   }
-  .stat-block {
-    border: 1px solid var(--rule);
-    padding: 1.25rem 1.5rem;
-    background: white;
+  .stat-list {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--rule);
   }
-  .stat-block .stat-num {
+  .stat-row {
+    display: flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .stat-num {
     font-family: var(--sans);
-    font-size: 2rem; font-weight: 300;
-    line-height: 1;
+    font-size: 1.3rem; font-weight: 300;
+    min-width: 64px;
     color: var(--ink);
   }
-  .stat-block .stat-label {
+  .stat-label {
     font-family: var(--mono); font-size: 11px;
     text-transform: uppercase; letter-spacing: 0.1em;
     color: var(--ink-light);
-    margin-top: 0.3rem;
   }
 
   /* SECTION HEADER */
@@ -189,6 +247,8 @@
     background: var(--paper);
     padding: 1.75rem;
     transition: background 0.2s;
+    display: flex;
+    flex-direction: column;
   }
   .project-card:hover { background: var(--accent-light); }
   .project-tag {
@@ -204,7 +264,7 @@
     color: var(--ink-light);
     margin-bottom: 0.5rem;
   }
-  .project-desc { font-size: 14px; color: var(--ink-mid); line-height: 1.6; }
+  .project-desc { font-size: 14px; color: var(--ink-mid); line-height: 1.6; flex: 1; }
   .project-links { display: flex; gap: 1rem; margin-top: 0.75rem; }
   .project-link {
     font-family: var(--mono); font-size: 10px;
@@ -336,6 +396,7 @@
     .nav-links {
       display: none;
       flex-direction: column;
+      order: 99;
       width: 100%;
       gap: 0;
       padding: 0.5rem 0 1rem;
@@ -363,9 +424,6 @@
 <!-- NAV -->
 <nav>
   <span class="nav-logo">Mahesh Arumugam</span>
-  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-    <span></span><span></span><span></span>
-  </button>
   <ul class="nav-links">
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Selected Projects</a></li>
@@ -373,6 +431,9 @@
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
 
 <!-- HERO -->
@@ -386,29 +447,31 @@
     <a href="#experience" class="hero-cta">View my work →</a>
   </div>
   <div class="hero-right fade-in" style="transition-delay:0.15s">
-    <div class="stat-block">
-      <div class="stat-num">20+</div>
-      <div class="stat-label">Years of experience</div>
-    </div>
-    <div class="stat-block">
-      <div class="stat-num">20+</div>
-      <div class="stat-label">Patents accepted / filed</div>
-    </div>
-    <div class="stat-block">
-      <div class="stat-num">20+</div>
-      <div class="stat-label">Peer-reviewed publications</div>
-    </div>
-    <div class="stat-block">
-      <div class="stat-num">PhD</div>
-      <div class="stat-label">Computer Science, MSU</div>
-    </div>
-    <div class="stat-block">
-      <div class="stat-num">MIDS</div>
-      <div class="stat-label">UC Berkeley</div>
-    </div>
-    <div class="stat-block">
-      <div class="stat-num" style="font-size:1.25rem;font-weight:400;">India</div>
-      <div class="stat-label">Bengaluru · Remote</div>
+    <div class="stat-list">
+      <div class="stat-row">
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Years of experience</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Patents accepted / filed</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Peer-reviewed publications</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-num">PhD</div>
+        <div class="stat-label">Computer Science, MSU</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-num">MIDS</div>
+        <div class="stat-label">UC Berkeley</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-num">India</div>
+        <div class="stat-label">Bengaluru · Remote</div>
+      </div>
     </div>
   </div>
 </section>
@@ -442,7 +505,7 @@
     </div>
 
     <div class="exp-item fade-in">
-      <div class="exp-period">Mar 2024 – Feb 2025<br>Remote</div>
+      <div class="exp-period">Mar 2024 – Feb 2025<br>Mountain View, CA</div>
       <div>
         <div class="exp-role">Engineer</div>
         <div class="exp-company">Applied Intuition</div>
@@ -452,7 +515,7 @@
     </div>
 
     <div class="exp-item fade-in">
-      <div class="exp-period">2021 – 2023<br>San Jose, CA</div>
+      <div class="exp-period">Oct 2021 – Nov 2023<br>San Jose, CA · Hybrid</div>
       <div>
         <div class="exp-role">Architect</div>
         <div class="exp-company">Zscaler</div>
@@ -462,17 +525,17 @@
     </div>
 
     <div class="exp-item fade-in">
-      <div class="exp-period">2021<br>Remote / Austin, TX</div>
+      <div class="exp-period">May 2021 – Oct 2021<br>Remote · Austin, TX</div>
       <div>
         <div class="exp-role">Principal Software Engineer</div>
-        <div class="exp-company">FeatureBase (formerly Molecula)</div>
+        <div class="exp-company">Molecula (now FeatureBase, acq. by Circuit)</div>
         <div class="exp-desc">Architecture and design of Molecula as a Service — control plane for multi-tenant feature store management, deployment orchestration, and analytical query serving.</div>
         <div class="exp-tag">Feature Store · Multi-tenancy · Control Plane · ML Infrastructure · SaaS</div>
       </div>
     </div>
 
     <div class="exp-item fade-in">
-      <div class="exp-period">2017 – 2020<br>Palo Alto, CA</div>
+      <div class="exp-period">Jun 2017 – Nov 2020<br>Palo Alto, CA</div>
       <div>
         <div class="exp-role">Principal Software Engineer</div>
         <div class="exp-company">Cisco Tetration</div>
@@ -482,7 +545,7 @@
     </div>
 
     <div class="exp-item fade-in">
-      <div class="exp-period">2011 – 2017<br>Santa Clara, CA</div>
+      <div class="exp-period">Apr 2011 – Jun 2017<br>Santa Clara, CA</div>
       <div>
         <div class="exp-role">Principal Software Engineer</div>
         <div class="exp-company">Citrix Systems</div>
@@ -492,7 +555,7 @@
     </div>
 
     <div class="exp-item fade-in">
-      <div class="exp-period">2006 – 2011<br>San Jose, CA</div>
+      <div class="exp-period">Oct 2006 – Apr 2011<br>San Jose, CA</div>
       <div>
         <div class="exp-role">Senior Software Engineer</div>
         <div class="exp-company">Cisco Systems</div>
@@ -682,6 +745,8 @@
   <span>PhD &nbsp;·&nbsp; MIDS &nbsp;·&nbsp; Architect</span>
 </footer>
 
+<button class="theme-toggle" aria-label="Toggle theme">◐</button>
+
 <script>
   const obs = new IntersectionObserver(entries => {
     entries.forEach(e => {
@@ -715,6 +780,29 @@
     navEl.classList.remove('open');
     toggleBtn.setAttribute('aria-expanded', false);
   }));
+
+  // Theme toggle: system → light → dark → system
+  const THEMES = ['system', 'light', 'dark'];
+  const ICONS  = { system: '◐', light: '☀', dark: '☾' };
+  const themeBtn = document.querySelector('.theme-toggle');
+  let currentTheme = localStorage.getItem('theme') || 'system';
+
+  function applyTheme(theme) {
+    const root = document.documentElement;
+    if (theme === 'system') root.removeAttribute('data-theme');
+    else root.setAttribute('data-theme', theme);
+    themeBtn.textContent = ICONS[theme];
+    themeBtn.setAttribute('aria-label', 'Theme: ' + theme);
+    localStorage.setItem('theme', theme);
+    currentTheme = theme;
+  }
+
+  themeBtn.addEventListener('click', () => {
+    const next = THEMES[(THEMES.indexOf(currentTheme) + 1) % THEMES.length];
+    applyTheme(next);
+  });
+
+  applyTheme(currentTheme);
 </script>
 
 </body>
