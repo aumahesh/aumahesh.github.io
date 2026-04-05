@@ -306,10 +306,48 @@
   }
   .fade-in.visible { opacity: 1; transform: none; }
 
+  /* HAMBURGER */
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    width: 32px; height: 32px;
+  }
+  .nav-toggle span {
+    display: block;
+    width: 22px; height: 1.5px;
+    background: var(--ink);
+    transition: transform 0.2s, opacity 0.2s;
+    transform-origin: center;
+  }
+  nav.open .nav-toggle span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+  nav.open .nav-toggle span:nth-child(2) { opacity: 0; }
+  nav.open .nav-toggle span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
   /* RESPONSIVE */
   @media (max-width: 768px) {
-    nav { padding: 0 1.5rem; }
-    .nav-links { gap: 1rem; }
+    nav { padding: 0 1.5rem; flex-wrap: wrap; height: auto; min-height: 56px; }
+    .nav-toggle { display: flex; }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      gap: 0;
+      padding: 0.5rem 0 1rem;
+      border-top: 1px solid var(--rule);
+    }
+    .nav-links li { width: 100%; }
+    .nav-links a {
+      display: block;
+      padding: 0.65rem 0;
+      font-size: 13px;
+    }
+    nav.open .nav-links { display: flex; }
     #hero { grid-template-columns: 1fr; min-height: auto; padding: 3rem 1.5rem; }
     .hero-right { align-items: flex-start; }
     section { padding: 3rem 1.5rem; }
@@ -325,6 +363,9 @@
 <!-- NAV -->
 <nav>
   <span class="nav-logo">Mahesh Arumugam</span>
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
   <ul class="nav-links">
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Selected Projects</a></li>
@@ -661,6 +702,19 @@
     });
   }, { threshold: 0.3 });
   sections.forEach(s => navObs.observe(s));
+
+  // Hamburger toggle
+  const navEl = document.querySelector('nav');
+  const toggleBtn = document.querySelector('.nav-toggle');
+  toggleBtn.addEventListener('click', () => {
+    const isOpen = navEl.classList.toggle('open');
+    toggleBtn.setAttribute('aria-expanded', isOpen);
+  });
+  // Close menu when a nav link is clicked
+  navLinks.forEach(a => a.addEventListener('click', () => {
+    navEl.classList.remove('open');
+    toggleBtn.setAttribute('aria-expanded', false);
+  }));
 </script>
 
 </body>
