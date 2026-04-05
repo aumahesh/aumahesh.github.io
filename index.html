@@ -22,7 +22,7 @@
   :root {
     --ink: #111111;
     --ink-mid: #555555;
-    --ink-light: #999999;
+    --ink-light: #777777;
     --paper: #ffffff;
     --rule: #e5e5e5;
     --accent: #1a56db;
@@ -59,7 +59,7 @@
   [data-theme="light"] {
     --ink: #111111;
     --ink-mid: #555555;
-    --ink-light: #999999;
+    --ink-light: #777777;
     --paper: #ffffff;
     --rule: #e5e5e5;
     --accent: #1a56db;
@@ -238,14 +238,13 @@
   /* PROJECTS */
   .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5px;
-    background: var(--rule);
-    border: 1px solid var(--rule);
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
   }
   .project-card {
     background: var(--paper);
-    padding: 1.75rem;
+    border: 1px solid var(--rule);
+    padding: 2rem;
     transition: background 0.2s;
     display: flex;
     flex-direction: column;
@@ -414,6 +413,7 @@
     section { padding: 3rem 1.5rem; }
     .exp-item { grid-template-columns: 1fr; gap: 0.5rem; }
     .pub-item { grid-template-columns: 1fr; gap: 0.25rem; }
+    .project-grid { grid-template-columns: 1fr; }
     .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
     footer { padding: 1.5rem; flex-direction: column; gap: 0.5rem; text-align: center; }
   }
@@ -442,7 +442,7 @@
     <p class="hero-subtitle">Software Architect</p>
     <h1>From protocols<br><em>to models.</em></h1>
     <p class="hero-bio">
-      20 years building systems at the boundary of infrastructure and intelligence — from network control planes to agentic AI. Based in Bengaluru, India.
+      Two decades building distributed systems — network software, data infrastructure, analytics, and platform engineering. A deliberate pivot into machine learning through UC Berkeley's MIDS program — sharpened further by building business intelligence pipelines at Zscaler — led me to multimodal AI, including real-world drive log analysis at Applied Intuition. I now focus on agentic AI applied to observability and production reliability — systems that reason, not just monitor. Based in Bengaluru.
     </p>
     <a href="#experience" class="hero-cta">View my work →</a>
   </div>
@@ -695,8 +695,11 @@
   </div>
   <div class="about-grid">
     <div class="about-text fade-in">
-      <p>I'm a software architect working at the intersection of AI and systems engineering — with a growing focus on agentic AI applied to production reliability and observability.</p>
-      <p>Over 20+ years I've built across the stack: routing protocols at Cisco, declarative configuration at Citrix, data security at Zscaler, and CLIP-based multimodal search at Applied Intuition. UC Berkeley (MIDS) sharpened the AI direction. After nearly 25 years in the US, I returned to Bengaluru in 2024 — building at the frontier of AI.</p>
+      <p>I'm a software architect with a background in distributed systems and networking, increasingly focused on where AI meets production infrastructure.</p>
+      <p>The UC Berkeley MIDS program was a deliberate pivot. After two decades in systems engineering, I wanted to build a rigorous foundation in machine learning — not just use the tools, but understand them. The coursework spanned statistics, machine learning, data engineering, and research methods. The capstone project — deciphering ancient Japanese script using OCR, unsupervised learning, and GPT-4 — was representative of what drew me to applied AI: constrained problems that require combining multiple techniques to get anywhere.</p>
+      <p>At Applied Intuition I worked on the Data Explorer product, which helps autonomous vehicle teams visualize real drive logs and triage them — identifying events of interest and exporting curated collections for further analysis. I built parallel, auto-scaled export workflows and integrated CLIP-based multimodal models to enable natural language search over real-world drive data. It was my first sustained exposure to multimodal ML in a production setting.</p>
+      <p>My current focus is observability and reliability for complex systems, using agentic AI to reason over telemetry, surface anomalies, and assist with incident response. The hard problem isn't building the agent — it's knowing when to trust it, when to escalate, and how to keep a human meaningfully in the loop.</p>
+      <p>After nearly 25 years in the US, I returned to Bengaluru in 2024. The problems that interest me most sit at the boundary of AI, software systems, and the physical world — where the stakes are real and the margin for error is small.</p>
     </div>
     <div class="fade-in" style="transition-delay:0.1s">
       <p style="font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--ink-light);margin-bottom:1.25rem;">Education</p>
