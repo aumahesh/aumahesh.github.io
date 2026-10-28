@@ -93,7 +93,9 @@
     letter-spacing: 0.08em;
     color: var(--ink-mid);
     text-transform: uppercase;
+    display: inline-flex; align-items: center; gap: 0.6rem;
   }
+  .nav-logo img { width: 22px; height: 22px; display: block; }
   .theme-toggle {
     position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 200;
     background: var(--paper); border: 1px solid var(--rule);
@@ -439,7 +441,7 @@
 
 <!-- NAV -->
 <nav>
-  <span class="nav-logo">Mahesh Arumugam</span>
+  <span class="nav-logo">Mahesh Arumugam<img src="favicon.svg" alt="" aria-hidden="true"></span>
   <ul class="nav-links">
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Selected Projects</a></li>
