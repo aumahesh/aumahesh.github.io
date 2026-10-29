@@ -342,6 +342,12 @@
   }
   .about-text { font-size: 17px; line-height: 1.8; color: var(--ink-mid); }
   .about-text p + p { margin-top: 1rem; }
+  .edu-label { display: flex; align-items: center; gap: 0.6rem; }
+  .edu-label-icon {
+    width: 18px; height: 18px; flex-shrink: 0;
+    fill: none; stroke: var(--accent); stroke-width: 1.5;
+    stroke-linecap: round; stroke-linejoin: round;
+  }
   .education-list { display: flex; flex-direction: column; gap: 1.25rem; }
   .edu-item { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 0.5rem; }
   .edu-degree { font-size: 14px; font-weight: 500; }
@@ -752,7 +758,7 @@
       <p>After nearly 25 years in the US, I returned to Bengaluru in 2024. The problems that interest me most sit at the boundary of AI, software systems, and the physical world — where the stakes are real and the margin for error is small.</p>
     </div>
     <div class="fade-in" style="transition-delay:0.1s">
-      <p style="font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--ink-light);margin-bottom:1.25rem;">Education</p>
+      <p class="edu-label" style="font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--ink-light);margin-bottom:1.25rem;"><svg class="edu-label-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V16c0 1.5 3 3 6 3s6-1.5 6-3v-4.5"/><path d="M22 9v6"/></svg>Education</p>
       <div class="education-list">
         <div class="edu-item">
           <div class="edu-degree">MIDS</div>
