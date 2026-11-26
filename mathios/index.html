@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mathi OS — models propose, a small guard decides</title>
+<meta name="description" content="Mathi OS is an experimental operating system for running untrusted AI agents behind a small, specified guard. A research project by Mahesh Arumugam, in progress.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<script>
+  (function() {
+    try {
+      const t = localStorage.getItem('theme');
+      if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      else if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+    } catch (e) {}
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #111111;
+    --ink-mid: #555555;
+    --ink-light: #777777;
+    --paper: #ffffff;
+    --rule: #e5e5e5;
+    --accent: #1a56db;
+    --accent-light: #eff4ff;
+    --sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --mono: 'JetBrains Mono', 'Menlo', monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #efefef; --ink-mid: #cccccc; --ink-light: #aaaaaa;
+      --paper: #111111; --rule: #2a2a2a;
+      --accent: #5b9cf6; --accent-light: #1c2e4a;
+    }
+  }
+  [data-theme="dark"] {
+    --ink: #efefef; --ink-mid: #cccccc; --ink-light: #aaaaaa;
+    --paper: #111111; --rule: #2a2a2a;
+    --accent: #5b9cf6; --accent-light: #1c2e4a;
+  }
+  [data-theme="light"] {
+    --ink: #111111; --ink-mid: #555555; --ink-light: #777777;
+    --paper: #ffffff; --rule: #e5e5e5;
+    --accent: #1a56db; --accent-light: #eff4ff;
+  }
+
+  body {
+    font-family: var(--sans);
+    background: var(--paper);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 3rem; height: 56px;
+  }
+  .nav-logo {
+    font-family: var(--mono); font-size: 13px; font-weight: 300;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--ink-mid); text-decoration: none;
+    display: inline-flex; align-items: center; gap: 0.6rem;
+  }
+  .nav-logo img { width: 22px; height: 22px; display: block; }
+  .nav-back {
+    font-family: var(--mono); font-size: 12px; font-weight: 300;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--ink-mid); text-decoration: none; transition: color 0.2s;
+  }
+  .nav-back:hover { color: var(--ink); }
+  .theme-toggle {
+    position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 200;
+    background: var(--paper); border: 1px solid var(--rule);
+    cursor: pointer; font-family: var(--mono); font-size: 14px; color: var(--ink-mid);
+    width: 36px; height: 36px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .theme-toggle:hover { color: var(--ink); }
+
+  main { max-width: 820px; margin: 0 auto; padding: 4rem 3rem 3rem; }
+  .eyebrow {
+    font-family: var(--mono); font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--ink-light); margin-bottom: 1.5rem;
+  }
+  h1 { font-size: clamp(2.4rem, 6vw, 3.6rem); font-weight: 300; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 1.5rem; }
+  h1 em { font-style: normal; color: var(--accent); }
+  h1 .ta { font-size: 0.5em; color: var(--ink-light); letter-spacing: 0; margin-left: 0.4em; }
+  .lede { font-size: 18px; color: var(--ink-mid); line-height: 1.7; margin-bottom: 1.25rem; }
+  .status {
+    display: inline-block; font-family: var(--mono); font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--accent); border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+    background: var(--accent-light); padding: 0.5rem 0.9rem; margin-top: 0.75rem;
+  }
+  section { padding: 3rem 0 0; margin-top: 3rem; border-top: 1px solid var(--rule); }
+  h2 {
+    font-family: var(--mono); font-size: 12px; font-weight: 400;
+    text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--ink-light); margin-bottom: 1.5rem;
+  }
+  p { color: var(--ink-mid); margin-bottom: 1rem; }
+  .points { display: grid; gap: 1.5rem; }
+  .point-title { font-size: 16px; font-weight: 500; color: var(--ink); margin-bottom: 0.25rem; }
+  .point p { font-size: 15px; margin-bottom: 0; line-height: 1.65; }
+  ul.plain { list-style: none; }
+  ul.plain li { color: var(--ink-mid); font-size: 15px; padding: 0.35rem 0 0.35rem 1.1rem; position: relative; }
+  ul.plain li::before { content: "–"; position: absolute; left: 0; color: var(--ink-light); }
+  footer {
+    width: calc(100% - 6rem); max-width: 724px; margin: 0 auto; padding: 2rem 0 3rem;
+    border-top: 1px solid var(--rule);
+    font-family: var(--mono); font-size: 11px; font-weight: 300;
+    letter-spacing: 0.06em; color: var(--ink-light); line-height: 1.8;
+  }
+  @media (max-width: 768px) {
+    nav { padding: 0 1.5rem; }
+    main { padding: 3rem 1.5rem 2rem; }
+    footer { width: calc(100% - 3rem); padding: 1.5rem 0 2.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="../">Mahesh Arumugam<img src="../favicon.svg" alt="" aria-hidden="true"></a>
+  <a class="nav-back" href="../">← Home</a>
+</nav>
+
+<main>
+  <p class="eyebrow">Research project · 2026</p>
+  <h1>Mathi OS<span class="ta" lang="ta">மதி</span><br><em>Models propose. A small guard decides.</em></h1>
+  <p class="lede">An experimental operating system for running untrusted AI agents. The agent can think and ask for anything it likes, but it can act on the world only through a small, deterministic guard, and the guard is specified precisely enough to be checked.</p>
+  <p class="lede">The aim is to verify the envelope around the model, not the model itself.</p>
+  <span class="status">In progress · unaudited research</span>
+
+  <section>
+    <h2>The idea</h2>
+    <div class="points">
+      <div class="point">
+        <div class="point-title">Every action goes through the guard</div>
+        <p>An agent holds no keys. It reaches the model through a proxy that holds the key, and reaches tools only through the guard. Each call is checked against a manifest the tool declares and a policy the person wrote.</p>
+      </div>
+      <div class="point">
+        <div class="point-title">The record is written first</div>
+        <p>Each decision is appended to a tamper-evident, hash-chained audit log before the action happens, so the record is made before the deed, not after it.</p>
+      </div>
+      <div class="point">
+        <div class="point-title">Risk sets who decides</div>
+        <p>Safe, reversible actions run on their own. Others are logged and surfaced, held for a person's approval, or, for the highest stakes, need two independent confirmations. Reversible actions take a restore point first.</p>
+      </div>
+      <div class="point">
+        <div class="point-title">A display the agent cannot draw on</div>
+        <p>Approvals are shown by a trusted display that composes its own screen. Anything an agent influenced is visibly marked as untrusted, so an agent's own text is not mistaken for the system's.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why it can be checked</h2>
+    <p>The guard's core rules are written as TLA+ models and model-checked: how authority is delegated and revoked, and how approval tiers, independent channels and budgets behave. The Rust implementation is replayed against the models' state graphs, so the code is tested against the specification, not only against itself.</p>
+    <p>The longer-term direction is to run the same small guard on a verified microkernel, so isolation rests on something far smaller than a general-purpose operating system.</p>
+  </section>
+
+  <section>
+    <h2>What it is not</h2>
+    <ul class="plain">
+      <li>Not a claim that agents behave correctly or are aligned.</li>
+      <li>Not a security product, and not audited. No part of it has been proven.</li>
+      <li>Not a finished operating system. Today it runs as a set of services on Linux, behind a text-mode trusted display.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  Mathi OS is designed and directed by Mahesh Arumugam. Implementation, drafting and testing were done with substantial help from Claude (Anthropic).<br>
+  © 2026 Mahesh Arumugam
+</footer>
+
+<button class="theme-toggle" aria-label="Toggle theme">◐</button>
+<script>
+  const THEMES = ['system', 'light', 'dark'];
+  const ICONS  = { system: '◐', light: '☀', dark: '☾' };
+  const themeBtn = document.querySelector('.theme-toggle');
+  let currentTheme = 'system';
+  try { currentTheme = localStorage.getItem('theme') || 'system'; } catch (e) {}
+
+  function applyTheme(theme) {
+    const root = document.documentElement;
+    if (theme === 'system') root.removeAttribute('data-theme');
+    else root.setAttribute('data-theme', theme);
+    themeBtn.textContent = ICONS[theme];
+    themeBtn.setAttribute('aria-label', 'Theme: ' + theme);
+    try { localStorage.setItem('theme', theme); } catch (e) {}
+    currentTheme = theme;
+  }
+  themeBtn.addEventListener('click', () => {
+    applyTheme(THEMES[(THEMES.indexOf(currentTheme) + 1) % THEMES.length]);
+  });
+  applyTheme(currentTheme);
+</script>
+</body>
+</html>
