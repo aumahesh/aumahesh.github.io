@@ -173,6 +173,15 @@
   }
   .hero-now-title { font-size: 17px; font-weight: 500; line-height: 1.3; margin-bottom: 0.45rem; }
   .hero-now-desc { font-size: 14px; color: var(--ink-mid); line-height: 1.65; }
+  .hero-now-link {
+    display: inline-block; margin-top: 0.75rem;
+    font-family: var(--mono); font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--accent); text-decoration: none;
+    border-bottom: 1px solid var(--accent); padding-bottom: 1px;
+    transition: opacity 0.2s;
+  }
+  .hero-now-link:hover { opacity: 0.6; }
   .hero-cta {
     display: inline-flex; align-items: center; gap: 0.6rem;
     font-family: var(--mono); font-size: 12px; font-weight: 400;
@@ -510,6 +519,7 @@
       <div class="hero-now-label">Currently building · 2026</div>
       <div class="hero-now-title">Mathi OS <span lang="ta">(மதி)</span></div>
       <p class="hero-now-desc">An experimental operating system for running untrusted AI agents. The idea: models propose, and a small deterministic guard decides what actually happens. Every action is recorded before it runs, risky ones wait for a person, and the guard's core is specified and model-checked in TLA+. A research project, in progress.</p>
+      <a class="hero-now-link" href="mathios/">Read more →</a>
     </div>
     <div class="stat-list">
       <div class="stat-row">
